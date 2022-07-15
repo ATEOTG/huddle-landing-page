@@ -16,6 +16,7 @@ Body:
 :root {
   --violet: #674baf;
   --pink: #e882e8;
+  --dark-pink: #ff52c1;
 }
 
 * {
@@ -85,5 +86,22 @@ header {
 .btn-register:hover {
   color: white;
   background-color: var(--pink);
+  cursor: pointer;
+}
+
+/* FOOTER SEC */
+.footer-icon {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.footer-socials {
+  width: 4rem;
+  height: 4rem;
+  color: white;
+}
+
+.footer-socials:hover {
+  color: var(--dark-pink);
   cursor: pointer;
 }
