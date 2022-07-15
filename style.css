@@ -33,3 +33,34 @@ body {
   background-image: url("images/bg-desktop.svg");
   background-size: cover;
 }
+
+main {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+header {
+  margin-bottom: 10rem;
+}
+/* INTRO SECTION */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.intro-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: white;
+}
+
+.intro-p {
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+  justify-self: center;
+}
