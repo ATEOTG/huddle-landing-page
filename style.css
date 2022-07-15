@@ -27,3 +27,9 @@ Body:
 html {
   font-size: 62.5%;
 }
+
+body {
+  background-color: var(--violet);
+  background-image: url("images/bg-desktop.svg");
+  background-size: cover;
+}
