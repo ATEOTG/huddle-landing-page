@@ -32,6 +32,7 @@ body {
   background-color: var(--violet);
   background-image: url("images/bg-desktop.svg");
   background-size: cover;
+  height: 100vh;
 }
 
 main {
@@ -55,12 +56,34 @@ header {
   font-weight: 600;
   font-size: 4rem;
   color: white;
+  margin-bottom: 2.4rem;
 }
 
 .intro-p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: 400;
   font-size: 1.8rem;
   justify-self: center;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+/* REGISTER BUTTON */
+.btn-register {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  color: var(--violet);
+  border: none;
+  border-radius: 2.8rem;
+  width: 20rem;
+  height: 5.6rem;
+
+  box-shadow: 0.2rem 0.2rem 1.8rem rgba(0, 0, 0, 0.397);
+  transition: all 0.3s;
+}
+.btn-register:hover {
+  color: white;
+  background-color: var(--pink);
+  cursor: pointer;
 }
