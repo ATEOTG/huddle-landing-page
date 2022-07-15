@@ -1,0 +1,29 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+
+Heading:
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 600
+
+Body:
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+
+*/
+
+:root {
+  --violet: #674baf;
+  --pink: #e882e8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
