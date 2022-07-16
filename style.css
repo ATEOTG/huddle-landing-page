@@ -30,15 +30,17 @@ html {
 }
 
 body {
-  /* background-color: var(--violet); */
+  background-color: var(--violet);
   background-image: url("images/bg-desktop.svg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
 }
 
 main {
   margin: 0 auto;
+  max-width: 190rem;
   padding: 0 3.2rem;
 }
 
@@ -72,6 +74,9 @@ header {
   margin-bottom: 3rem;
 }
 
+.intro-illustration {
+  width: 50%;
+}
 /* REGISTER BUTTON */
 .btn-register {
   font-family: "Poppins", sans-serif;
@@ -110,4 +115,57 @@ header {
 .footer-socials:hover {
   color: var(--dark-pink);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 63em) {
+  html {
+    font-size: 43.7%;
+  }
+
+  main {
+    margin-bottom: 10rem;
+  }
+
+  body {
+    background-image: url("images/bg-mobile.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .intro-heading {
+    text-align: center;
+  }
+
+  .intro-p {
+    text-align: center;
+    width: 65%;
+  }
+
+  .btn-register {
+    width: 28rem;
+  }
+
+  .intro-illustration {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-icon {
+    justify-content: center;
+    right: auto;
+    bottom: auto;
+    transform: translate(0, 0);
+    position: static;
+  }
 }
